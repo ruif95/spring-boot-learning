@@ -1,0 +1,1 @@
+java -jar target/spring-boot-learning-0.0.1-SNAPSHOT.jar --filepath=$1

@@ -1,11 +1,8 @@
-package com.example.spring_boot_learning;
+package com.example.lineserver;
 
-import com.example.spring_boot_learning.content.ContentCalendarProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-@EnableConfigurationProperties(ContentCalendarProperties.class)
 @SpringBootApplication
 public class Application {
 

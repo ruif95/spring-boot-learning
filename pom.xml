@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-learning</name>
-	<description>Demo project for creating a Spring boot project from source, testable and deployable</description>
+	<name>line-server</name>
+	<description>Project for a web app where you can retrieve a given line from a file storage</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -74,8 +74,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		<optional>true</optional>
-	</dependency>
+		    <optional>true</optional>
+	    </dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>33.4.8-jre</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -84,7 +89,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.example.spring_boot_learning.Application</mainClass>
+					<mainClass>com.example.lineserver.Application</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

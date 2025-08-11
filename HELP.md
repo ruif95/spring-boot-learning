@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.spring-boot-learning' is invalid and this project uses 'com.example.spring_boot_learning' instead.
+* The original package name 'com.example.spring-boot-learning' is invalid and this project uses 'com.example.lineserver' instead.
 
 # Getting Started
 
